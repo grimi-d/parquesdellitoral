@@ -421,6 +421,7 @@ p{
     width: 100%;
     padding: 15px;
     margin-bottom: 17px;
+    margin-top: 17px;
     outline: none;
     border: 1px solid var(--grisborde);
     box-sizing: border-box;
