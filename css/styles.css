@@ -135,7 +135,11 @@ nav .fas{
     font-size: 40px;
     font-weight: 800;
 }
-
+.nosotros p{
+    font-size: 25px;
+    font-weight: 400;
+    
+}
 .text-link{
     text-decoration: none;
     color: #1c1c1a;
@@ -461,6 +465,12 @@ p{
     }
     .sub-header h1{
         font-size: 24px;
+    }
+    .text-link{
+        font-size: 25px;
+    }
+    .servicios h1{
+        font-size: 25px;
     }
 }
 
