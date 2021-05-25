@@ -1,0 +1,22 @@
+
+/*  font-family: Mukta */
+
+@font-face {
+    font-family: Mukta;
+    src: url('../fonts/Mukta/Mukta-Light.ttf');
+}
+
+
+/*  font-family: Montserrat */
+
+@font-face {
+    font-family: Montserrat;
+    src: url('../fonts/Montserrat/Montserrat-ExtraLight.ttf');
+}
+
+/*  font-family: Ibarra_Real_Nova */
+
+@font-face {
+    font-family: Ibarra_Real_Nova;
+    src: url('../fonts/Ibarra_Real_Nova/static/IbarraRealNova-Regular.ttf');
+}

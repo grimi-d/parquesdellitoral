@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Parques del Litoral</title>
+        
+        <!-- Css Style-->
+        <link rel="stylesheet" href="./css/styles.css">
+                
+        <!-- Font Awesome icons-->
+        <link rel="stylesheet" href="./css/all.css">
+
+        <!-- Custom Javascript file-->
+        <script src="./js/main.js"></script>
+       
+        
+    </head>
+    <body>
+        <!-------------------------Sub-Header---------------------->
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="./images/iconos/PDL/iconoParquesLitoral-removebg-preview.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fas fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Nosotros</h1>
+        </section>
+        <!-------------------------Sub-Header---------------------->
+        <!-------------------------Nosotros---------------------->
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>Título 1</h1>
+                    <p>Somos una joven empresa que construye y mantiene espacios verdes, diseña y ejecuta sistemas de riego en la zona de Rosario y alrededores.</p>
+                    <p>Un poco más de texto por acá como para rellenar este espacio que parece quedar tan grande en comparación con la imagen.</p>    
+                    <p>Hasta quizás podemos agregarle algún br <br>para ver cómo queda dispuesto este texto.</p>    
+                    <a href="contacto.html" class="hero-btn green-btn">Contactanos</a>
+                </div>
+                <div class="about-col">
+                    <img src="./images/nosotros2.jpg">
+                </div>
+            </div>
+        
+        </section>
+        
+        <!-------------------------Nosotros---------------------->
+        
+        <!-------------------------Footer---------------------->
+        <section class="social">
+            <h3>Encontranos en las redes sociales o escribinos un mensaje</h3>            
+            
+            <div class="icons">
+            <a target="_blank" href="https://www.facebook.com/parquesdellitoral/"></a><i class="fab fa-facebook-f"></i></a>
+            <a target="_blank" href="https://www.instagram.com/parquesdellitoral/"><i class="fab fa-instagram"></i></a>
+            <a target="_blank" href="https://wa.me/5493413227871?text=¡Hola,%20buen%20día!%20Quisiera%20saber%20si%20podrían%20asesorarme%20con%20..."><i class="fab fa-whatsapp"></i></a>
+            <a target="_blank" href="mailto:parquesdellitoral@gmail.com"><i class="fas fa-at"></i></a>
+            </div>
+            <p>Desarrollado por Daiana Grimi <i class="far fa-copyright"></i></p>
+
+        </section>
+
+        <!-------------------------Footer---------------------->
+
+        <!---------------Javascript para ocultar y mostrar el menú------------>
+        <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";  
+        }
+
+        </script>
+        <!---------------Javascript para ocultar y mostrar el menú------------>
+
+    </body>
+</html>
