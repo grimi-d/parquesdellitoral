@@ -95,8 +95,9 @@ nav img{
 
 .text-box p{
     margin: 10px 0 40px;
-    font-size: 14px;
+    font-size: 20px;
     color: var(--white);
+    font-weight: 100;
 }
 
 .hero-btn{
@@ -109,12 +110,14 @@ nav img{
     background: var(--white);
     position: relative;
     cursor: pointer;
+    font-weight: bolder;
 }
 .hero-btn:hover{
     color: var(--white);
     border: 1px solid var(--white);
     background: transparent;
     transition: 1s;
+    font-weight: bolder;
 }
 
 
@@ -161,7 +164,7 @@ h1{
 
 p{
     color:var(--eerie-black);
-    font-size: 14px;
+    font-size: 25px;
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
@@ -358,6 +361,7 @@ p{
     border: 1px solid var(--kombu-green);
     background: var(--white);
     color: var(--kombu-green);
+    font-weight: bolder;
 }
 
 .green-btn:hover{
