@@ -429,8 +429,11 @@ p{
     box-sizing: border-box;
 }
 
-.contact-colum .recaptcha{
-    margin: 0 0 17px;
+.contact-colum .g-recaptcha{
+    margin: 0 0px 17px;
+    display: flex;
+    align-items: center;
+    
 }
 
 .contact-colum .hero-btn .green-btn{
