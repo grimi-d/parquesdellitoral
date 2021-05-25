@@ -433,7 +433,9 @@ p{
     margin-top: 20px;
 }
 
-
+.contact-colum .hero-btn .green-btn{
+    margin-top: 20px;
+}
 /*------------------------RESPONSIVE----------------------------*/
 
 @media only screen and (max-width: 700px){
