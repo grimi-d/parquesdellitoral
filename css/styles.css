@@ -401,6 +401,7 @@ p{
     display: flex;
     align-items: center;
     margin-bottom: 40px;
+    margin-top: 20px;
 }
 .contact-colum div .fas{
     font-size: 28px;
@@ -427,13 +428,7 @@ p{
     box-sizing: border-box;
 }
 
-.recaptcha{
-    border-top-width: 10px;
-    border-right-width: 0px;
-    border-bottom-width: 10px;
-    border-left-width: 0px;
-}
-}
+
 
 
 /*------------------------RESPONSIVE----------------------------*/
