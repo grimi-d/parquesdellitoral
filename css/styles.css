@@ -401,7 +401,7 @@ p{
     display: flex;
     align-items: center;
     margin-bottom: 40px;
-    margin-top: 20px;
+    
 }
 .contact-colum div .fas{
     font-size: 28px;
@@ -428,7 +428,9 @@ p{
     box-sizing: border-box;
 }
 
-
+.contact-colum .recaptcha{
+    margin-top: 30px;
+}
 
 
 /*------------------------RESPONSIVE----------------------------*/
