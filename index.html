@@ -2,7 +2,6 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="google-site-verification" content="51vb07xO3SazsnEKIDJdcKvEI01OlL2L_tut8EtEKkQ" />
         <title>Parques del Litoral</title>
         
         <!-- Css Style-->
@@ -16,98 +15,22 @@
     
     </head>
     <body>
-        <section class="header">
-            <nav>
-                <div class="nav-brand">
-                    <a href="index.html"><img src="./images/iconos/PDL/iconoParquesLitoral-removebg-preview.png"></a>
-                </div>
-                <div class="nav-links" id="navLinks">
-                    <i class="fas fa-times" onclick="hideMenu()"></i>
-                    <ul>
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="nosotros.html">Nosotros</a></li>
-                        <li><a href="servicios.html">Servicios</a></li>
-                        <li><a href="contacto.html">Contacto</a></li>
-                    </ul>
-                </div>
-                <i class="fas fa-bars" onclick="showMenu()"></i>
-            </nav>
+        <section class="header" id="encabezado">
+            <script src="js/header.js"></script>
             <div class="text-box">
                 <h1>Diseño, Construcción & Mantenimiento de espacios verdes</h1>
                 <p>Somos una joven empresa que construye y mantiene espacios verdes, diseña y ejecuta sistemas de riego en la zona de Rosario y alrededores</p>
                 <a href="nosotros.html" class="hero-btn">Nosotros</a>
             </div>
         </section>
-        <!-------------------------Nosotros---------------------->
-       <!--  <section class="nosotros">
-            <h1><a href="nosotros.html" class="text-link">Nosotros</a></h1>
-            <p>Somos una joven empresa que construye y mantiene espacios verdes, diseña y ejecuta sistemas de riego en la zona de Rosario y alrededores</p>
-
-        </section>
-    -->
-        <!--------xxxxxxx-----------Nosotros--------xxxxxxx------->
-
+        
         <!-------------------------Servicios---------------------->
         <section class="servicios">
             <h1><a href="servicios.html" class="text-link">Nuestros Servicios</a></h1>
-            <!--<p>Enterate de nuestros servicios</p>-->
-            <div class="row">
-                <div class="servicio-col">
-                    <h3>Riegos</h3>
-                    <img src="./images/estamosinstalandoPDL.jpg">
-                    <div class="layer">
-                        <h3>Riegos</h3>
-                        <p>Armado de sistemas de riego, por aspersión y por goteo</p>
-                    </div>
-                </div>
-                <div class="servicio-col">
-                    <h3>Parques y Jardines</h3>
-                    <img src="./images/parquesyjardines2.jpg">
-                    <div class="layer">
-                        <h3>Parques y Jardines</h3>
-                        <p>Diseño, construcción y mantenimiento de parques y jardines </p>
-                    </div>
-                </div>
-                <div class="servicio-col">
-                    <h3>Siembra de Césped</h3>
-                    <img src="./images/cesped.jpg">
-                    <div class="layer">
-                        <h3>Siembra de Césped</h3>
-                        <p>Siembra de césped en panes y de semillas</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="servicio-col">
-                    <h3>Control de Malezas</h3>
-                    <img src="images/malezas.jpg">
-                    <div class="layer">
-                        <h3>Control de Malezas</h3>
-                        <p>Control de malezas, insectos y enfermedades </p>
-                    </div>
-                    
-                </div>
-                <div class="servicio-col">
-                    <h3>Huertas</h3>
-                    <img src="./images/HUERTApdl.jpg">
-                    <div class="layer">
-                        <h3>Huertas</h3>
-                        <p>Armado, seguimiento y asesoramiento en huertas hogareñas</p>
-                    </div>
-                    
-                </div>
-                <div class="servicio-col">
-                    <h3>Poda y Extracción</h3>                    
-                    <img src="./images/podayextraccion.jpg">
-                    <div class="layer">
-                        <h3>Poda y Extracción</h3>                    
-                        <p>Poda y extracción de árboles </p>
-                    </div>
-                    
-                </div>
-             </div>
-        </section>
-                   
+            <section class="servicios-grid" id="serviciosMain">
+                <script src="js/serviciosFOR.js"></script>
+            </section>
+        </section>        
 
         <!-------xxxxxxx----------Servicios------xxxxxxx-------->
 
@@ -120,33 +43,10 @@
         <!-------xxxxxxx-----------Contacto-----xxxxxxx-------->
 
         <!-------------------------Footer---------------------->
-        <section class="social">
-            <h3>Seguinos en las redes sociales o escribinos un mensaje</h3>            
-            
-            <div class="icons">
-            <a target="_blank" href="https://www.facebook.com/parquesdellitoral/"></a><i class="fab fa-facebook-f"></i></a>
-            <a target="_blank" href="https://www.instagram.com/parquesdellitoral/"><i class="fab fa-instagram"></i></a>
-            <a target="_blank" href="https://wa.me/5493413227871?text=¡Hola,%20buen%20día!%20Quisiera%20saber%20si%20podrían%20asesorarme%20con%20..."><i class="fab fa-whatsapp"></i></a>
-            <a target="_blank" href="mailto:parquesdellitoral@gmail.com"><i class="fas fa-at"></i></a>
-            </div>
-            <h4>Desarrollado por Daiana Grimi <i class="far fa-copyright"></i></h4>
-
-        </section>
+        <section class="social" id="piePagina"></section>
+            <script src="js/footer.js"></script>
 
         <!--------xxxxxxx--------Footer-------xxxxxxx------->
-
-        <!---------------Javascript para ocultar y mostrar el menú------------>
-        <script>
-        var navLinks=document.getElementById("navLinks");
-        function showMenu(){
-            navLinks.style.right="0";
-        }
-        function hideMenu(){
-            navLinks.style.right="-200px";  
-        }
-
-        </script>
-        <!---------------Javascript para ocultar y mostrar el menú------------>
-
+        
     </body>
 </html>

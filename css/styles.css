@@ -271,7 +271,7 @@ p{
     transition: 1s;
     }
 .layer:hover h3{
-    bottom: 80%;
+    bottom: 75%;
     opacity: 1;
     background-color: transparent;
     text-align: center;
@@ -360,10 +360,12 @@ p{
 }
 
 .about-col p{
+    display: block;
     padding: 15px 0 25px;
     color: var(--eerie-black);
-    font-weight: 600;
-    font-size: medium;
+    font-size: 17px;
+    line-height: 1.5;
+    font-weight: 200;
     
 
 }
@@ -515,6 +517,9 @@ p{
         margin-top: 20px;
         font-weight: 600;
     }
+    .about-col p{
+        font-size: medium;
+        font-weight: 100;
 }
-
+}
 /*------------------------RESPONSIVE----------------------------*/
