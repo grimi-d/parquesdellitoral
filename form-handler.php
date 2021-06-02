@@ -17,11 +17,11 @@ $email_body = "Nombre: $name.\n".
 
 $to = 'dgrimi@parquesdellitoral.com.ar';
 
-$headers = "From: $email_from \r\n";
+$header = "From: $email_from \r\n";
 
-$headers = "Reply-To: $visitor_email \r\n";
+$header = "Reply-To: $visitor_email \r\n";
 
-mail($to,$email_subject,$email_body,$headers);
+mail($to,$email_subject,$email_body,$header);
 
 header("Location: contacto.html");
 
