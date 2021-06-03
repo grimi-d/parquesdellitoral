@@ -5,7 +5,7 @@ $visitor_phone = $_POST['phone'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 
-$email_from = 'info@parquesdellitoral.com.ar';
+$email_from = 'grimid.it@gmail.com';
 
 $email_subject = 'Nuevo Mensaje desde la web';
 
@@ -17,12 +17,12 @@ $email_body = "Nombre: $name.\n".
 
 $to = 'grimid.it@gmail.com';
 
-$header = "From: $email_from \r\n";
+$headers = "From: $email_from \r\n";
 
-$header .= "Reply-To: $visitor_email \r\n";
+$headers .= "Reply-To: $visitor_email \r\n";
 
-mail($to, $email_subject, $email_body, $header);
+mail($to, $email_subject, $email_body, $headers);
 
-header("Location: contacto.html");
+headers("Location: contacto.html");
 
 ?>
